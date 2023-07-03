@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+#Below for both Ubuntu & CentOS in 1 play
+  - name: Install Apache & PHP package  
+    package:
+      name: 
+        - "{{ apache_package }}"
+        - "{{ php_package }}"
+      state: latest
+      update_cache: yes

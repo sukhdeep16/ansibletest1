@@ -1,3 +1,6 @@
-10.2.0.5
-10.2.0.6
-10.2.0.4
+10.2.0.5 apache_package=apache2 php_package=libapache2-mod-php
+10.2.0.6 apache_package=apache2 php_package=libapache2-mod-php
+10.2.0.4 apache_package=apache2 php_package=libapache2-mod-php
+
+#Giving random IP - Assuming below in CentOS server 
+10.2.0.123 apache_package=httpd php_package=php
